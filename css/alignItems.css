@@ -1,0 +1,29 @@
+body {
+    background-color: #3C8DAD;
+}
+
+.flex-container {
+    height: 200px;
+}
+.start{
+    align-items:flex-start;
+}
+.end{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
+.strech{
+    align-items: stretch;
+}
+.baseline{
+    align-items: baseline;
+}
+.baseline div:nth-child(3){
+    font-size: 38px;
+}
+
+.baseline div:nth-child(5){
+    font-size: 48px;
+}

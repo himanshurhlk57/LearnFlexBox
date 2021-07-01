@@ -1,0 +1,21 @@
+body {
+    background-color: #3C8DAD;
+}
+
+.flex-container {
+    flex-direction: row;
+    height: 240px;
+    align-items: flex-start;
+}
+.sample1 div:nth-child(2){
+    align-self: flex-start;
+}
+.sample2 div:nth-child(2){
+    align-self: flex-end;
+}
+.sample3 div:nth-child(4 ){
+    align-self: center;
+}
+.sample4 div:nth-child(3){
+    align-self: stretch;
+}

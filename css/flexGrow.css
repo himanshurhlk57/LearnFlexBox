@@ -1,0 +1,28 @@
+body {
+    background-color: #3C8DAD;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 600px;
+}
+/* all the items inside sample1 */
+.sample > * {  
+    flex-grow: 0;
+}
+.sample2 > * {
+    flex-grow: 1;
+}
+.sample3 div:nth-child(2){
+    flex-grow: 1;
+}
+.sample3 div:nth-child(3){
+    flex-grow: 2;
+}
